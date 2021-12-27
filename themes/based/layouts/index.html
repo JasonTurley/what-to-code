@@ -1,20 +1,26 @@
 {{ define "main" }}
-<h1> What to Code?</h1>
+<div class="banner">
+	<h1>{{ .Title }}</h1>
+	<hr/>
+</div>
+
+<p>{{ .Description }}</p>
+
+<!-- List tags -->
+{{ range .Site.Taxonomies.tags }}
+	<i>Tags: </i><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+{{ end }}
 
 <h2>Projects</h2>
 
 <ul class="all-projects">
-	<!-- Get the "projects" section to iterate over -->
-	{{ $section := where .Site.RegularPages "Section" "projects" }}
-
 	<!-- List the projects -->
-	{{ range $section }}
+	{{ range .Site.RegularPages }}
 		<li><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 	{{ else }}
 		<li>No projects yet</li>
 	{{ end }}
 </ul>
 
-{{/* Displays the content in _index.md */}}
 {{ .Content }}
 {{ end }}

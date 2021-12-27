@@ -1,18 +1,25 @@
+---
+title: "What to Code?"
+description: "Get inspired to code."
+---
 
 ## About this site
 
-All developers at some point have asked themselves the question, "I know how to write code, but what
-should I make?".
+All developers at one point have said to themselves, ["I know how to program, but I don't know what
+to program"](https://www.devdungeon.com/content/i-know-how-program-i-dont-know-what-program). 
 
-This website was created to answer that question. 
+This website was created to help. It features programming projects, resources, and tutorials to
+inspire you to code.
  
 ## How to contribute
 
-- Submit project ideas on GitHub.
-- Add links to tutorials or guides.
+- Submit project ideas on [GitHub](https://github.com/JasonTurley/what-to-code).
+- Add tutorials, guides, or other reference material.
 
 
 ## Consider donating
 
 Donating helps keep the site free of ads. All proceeds go to server costs and improving site
 quality.
+
+- [donate](https://jasonturley.xyz/donate)

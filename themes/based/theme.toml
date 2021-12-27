@@ -11,6 +11,10 @@ features = []
 min_version = "0.41.0"
 
 [author]
-  name = "Jason Turley"
-  homepage = "https://jasonturley.xyz"
+  	name = "Jason Turley"
+  	homepage = "https://jasonturley.xyz"
 
+[original]
+	name = "Based Cooking"
+	homepage = "https://based.cooking"
+	repo = "https://github.com/lukesmithxyz/based.cooking"

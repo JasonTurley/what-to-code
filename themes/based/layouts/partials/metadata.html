@@ -1,7 +1,3 @@
 { $dateTime := .PublishDate.Format "2006-01-02" }}
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
 
-{{ range . }}
-{{ $href := print (absURL "tags/") (urlize .) }}
-<a class="tags" href="{{ $href }}">{{ . }}</a>
-{{ end }}
