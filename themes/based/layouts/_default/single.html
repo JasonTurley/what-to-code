@@ -1,0 +1,7 @@
+<!-- This layout is used to display a single post -->
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ partial "metadata.html" . }}
+<br><br>
+{{ .Content }}
+{{ end }}

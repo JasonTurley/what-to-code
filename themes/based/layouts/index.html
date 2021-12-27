@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="projects">
+	<h2>Projects</h2>
+	
+	<ul class="all-projects">
+		<!-- Get the "projects" section to iterate over -->
+		{{ $section := where .Site.RegularPages "Section" "projects" }}
+
+		<!-- List the projects -->
+		{{ range $section }}
+			<li><a class="title" href="{{ .Permalink }}">{{ .Title }}</a></li>
+		{{ else }}
+			<li>No projects yet</li>
+		{{ end }}
+	</ul>
+</div>
+
+{{/* Displays the content in _index.md */}}
+{{ .Content }}
+{{ end }}
