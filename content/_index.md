@@ -1,4 +1,3 @@
-# What to Code? 
 
 ## About this site
 

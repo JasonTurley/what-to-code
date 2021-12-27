@@ -1,7 +1,13 @@
-<!-- This layout is used to display a single post -->
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
-<br><br>
-{{ .Content }}
+<section id="main">
+	<h1>{{ .Title }}</h1>
+
+	<article id="content">
+		{{ .Content }}
+	</article>
+
+	{{ range (.GetTerms "tags") }}
+		<a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+	{{ end }}
+</section>
 {{ end }}

@@ -1,13 +1,12 @@
-<!-- This layout is used to display the list of posts on our site -->
-
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 
-<!-- List posts in reverse order -->
+{{/*List posts in reverse order*/}}
 {{ range .Pages.PublishDate.Reverse }}
 <p>
-	<!-- Display the post title -->
 	<h3><a class="title" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+	{{ partial "metadata.html" . }}
+
 </p>
 {{ end }}
 {{ end }}
