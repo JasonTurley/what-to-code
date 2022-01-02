@@ -1,5 +1,5 @@
 ---
-title: "Stack"
+title: "stack"
 date: 2021-12-26
 draft: false
 tags: ["data structures"]
