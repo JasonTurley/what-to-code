@@ -7,8 +7,9 @@
 <p>{{ .Description }}</p>
 
 <!-- List tags -->
+<i>Tags: </i>
 {{ range .Site.Taxonomies.tags }}
-	<i>Tags: </i><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+	<a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
 {{ end }}
 
 <h2>Projects</h2>
