@@ -1,3 +1,17 @@
 baseURL = "https://example.com"
-title = "What to Code"
+
+# The name of the theme to use
 theme = "based"
+
+# Basic metadata for the website
+title = "What to Code"
+author = "Jason Turley"
+languageCode = "en-US"
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
+
+[permalinks]
+	projects = "/:slug/"
+	tags 	 = "/projects/:slug"
+
