@@ -17,7 +17,7 @@ It's a fast, minimal, ad-free website.
 
 - Create a pull request
 - Place projects ideas in `/content/projects`
-- Model your submissions after the [example.md](https://github.com/JasonTurley/what-to-code/blob/master/example.md) file.
+- Model your submissions after the [example.md](https://raw.githubusercontent.com/JasonTurley/what-to-code/master/example.md) file.
 - File names should be the name of the project, with words separated by hyphens (`-`).
 
 
