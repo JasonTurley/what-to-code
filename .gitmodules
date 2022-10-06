@@ -1,0 +1,3 @@
+[submodule "themes/hugo-based"]
+	path = themes/hugo-based
+	url = https://github.com/JasonTurley/hugo-based
