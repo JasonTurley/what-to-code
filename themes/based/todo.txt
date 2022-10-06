@@ -1,6 +1,0 @@
-Edit README.md
-  Add a demo github.io page
-  Add screenshots of light and dark mode
-  Add install instructions
-  
-Make it easier for users to edit head/header/css, similar to https://github.com/janraasch/hugo-bearblog 
