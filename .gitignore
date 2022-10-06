@@ -1,3 +1,9 @@
+/themes/
+
+# Generated files by hugo
+/public/
+/resources/_gen/
+
 *.swp
 *.bak
 
