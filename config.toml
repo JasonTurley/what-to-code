@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 
 # The name of the theme to use
-theme = "hugo-based"
+theme = "based"
 
 # Basic metadata for the website
 title = "What to Code"

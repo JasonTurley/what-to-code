@@ -1,6 +1,6 @@
 ---
 title: "What to Code?"
-description: "Get inspired to code."
+description: "A website to inspire developers with programming project ideas. Read, contribute, code!"
 ---
 
 ## About this site
