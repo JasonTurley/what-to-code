@@ -1,6 +1,6 @@
 # What To Code Website
 
-https://whattocode.com
+
 
 > Helping developers figure out what to code
 
